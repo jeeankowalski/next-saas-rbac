@@ -6,7 +6,7 @@ const config = {
   printWidth: 80,
   tabWidth: 2,
   useTabs: false,
-  semi: false,
+  semi: true,
   singleQuote: true,
   quoteProps: 'as-needed',
   jsxSingleQuote: false,
@@ -14,7 +14,7 @@ const config = {
   bracketSpacing: true,
   arrowParens: 'always',
   endOfLine: 'auto',
-  bracketSameLine: false
+  bracketSameLine: false,
 };
 
 export default config;
